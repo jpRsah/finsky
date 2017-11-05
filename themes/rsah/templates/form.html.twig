@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+<form{{ attributes }}>
+  {{ children }}
+  <p class="text-danger">Нажимая на кнопку, вы даете согласие на обработку персональных данных.</p>
+  <small>Мы не передаем ваши имена и телефонные номера третьим лицам и используем только для связи с вами в течение срока нашего сотрудничества.</small>
+</form>

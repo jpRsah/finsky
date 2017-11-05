@@ -1,0 +1,63 @@
+/**
+ * Variables.
+ *
+ * Modify this file to provide Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `` flag which will only set their if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/_variables.scss
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
+
+
+
+
+@font-face {
+    font-family: "AcademyC";
+    src: url("../fonts/AcademyC.otf") format("opentype");
+}
+
+
+
+
+
+
+
+$body-bg:               white ;
+
+//меню
+ $navbar-default-link-color:                   white ;
+
+$navbar-default-link-hover-color:          #fe5c51;
+$navbar-default-link-hover-bg:             #696f72 ;
+
+$navbar-default-link-active-color:yellow ;
+$navbar-default-link-active-bg:#0f435b;
+
+$navbar-default-link-disabled-bg: #0f435b;
+$navbar-default-link-disabled-color:                   white ;
+
+//$hr-border:                   #0f435b ;
+
+
+
+//$brand-primary: #00415f;
+
+/*
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+ 
+ */
+
+
+//$btn-primary-bg:    lighten(#00415f, 10%);
+             
+$brand-primary:         lighten(#00415f, 10%); // #337ab7
